@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5779701934697022976}
   - component: {fileID: 3313737254549455147}
-  - component: {fileID: -8485945356355407740}
   m_Layer: 0
   m_Name: Chesspiece
   m_TagString: Untagged
@@ -26,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6205330275729961340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2411475, y: 0.0051777735, z: -0.0009739478}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 14, y: 0.64, z: 0}
+  m_LocalScale: {x: 0.2439102, y: 0.28603902, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,23 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8485945356355407740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6205330275729961340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9be3fdc6e230a9409f8961ff05114e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  movePlate: {fileID: 0}
-  geni: {fileID: -295186684, guid: ea26f3db6a574ac41acee970293b2ff5, type: 3}
-  evo_geni: {fileID: 887701954, guid: 9411d6e65124ce84b838ddad3b5cbe93, type: 3}
-  king_geni: {fileID: 0}
-  banyu: {fileID: -914506171, guid: 2e55453616d5e2c4bb231da15b78ffb9, type: 3}
-  evo_banyu: {fileID: 232906487, guid: 7522bdf745ed7fe4783688d4fc932d71, type: 3}
-  king_banyu: {fileID: 0}
