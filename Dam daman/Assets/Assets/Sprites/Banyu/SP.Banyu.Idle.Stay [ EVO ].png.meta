@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: ea26f3db6a574ac41acee970293b2ff5
+guid: 7522bdf745ed7fe4783688d4fc932d71
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -134,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -146,19 +155,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay_0
+      name: SP.Banyu.Idle.Stay [ EVO ]_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 583
-        height: 634
+        width: 1275
+        height: 850
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2cd115c106e6c942bd3cab201c027f6
-      internalID: -295186684
+      spriteID: 3793afcb614047344a03a47b22fce165
+      internalID: 232906487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay_1
+      name: SP.Banyu.Idle.Stay [ EVO ]_1
       rect:
         serializedVersion: 2
-        x: 587
+        x: 1275
         y: 0
-        width: 583
-        height: 634
+        width: 1275
+        height: 850
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb0fe124646a50439e47cbf0b196d3b
-      internalID: -125824500
+      spriteID: d9b6f954e26eb7445977f1399ce0a9b3
+      internalID: 145466031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay_2
+      name: SP.Banyu.Idle.Stay [ EVO ]_2
       rect:
         serializedVersion: 2
-        x: 1166
+        x: 2546
         y: 0
-        width: 583
-        height: 634
+        width: 1275
+        height: 850
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b60acf4142a78294aa7a948bfa0311c8
-      internalID: -375067122
+      spriteID: 325ea53c107406641ae31e95bae481d7
+      internalID: -87413688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay_3
+      name: SP.Banyu.Idle.Stay [ EVO ]_3
       rect:
         serializedVersion: 2
-        x: 1749
+        x: 3825
         y: 0
-        width: 583
-        height: 634
+        width: 1275
+        height: 850
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4653597da5c198e42afd1c08647b5d93
-      internalID: -483108350
+      spriteID: 9df35395c6cf8c445b63f3a6f2ca5bd0
+      internalID: 418550095
       vertices: []
       indices: 
       edges: []
@@ -246,13 +256,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SP.Geni.Idle.Stay_0: -295186684
-      SP.Geni.Idle.Stay_3: -483108350
-      SP.Geni.Idle.Stay_2: -375067122
-      SP.Geni.Idle.Stay_1: -125824500
-  spritePackingTag: 
+      SP.Banyu.Idle.Stay [ EVO ]_0: 232906487
+      SP.Banyu.Idle.Stay [ EVO ]_1: 145466031
+      SP.Banyu.Idle.Stay [ EVO ]_2: -87413688
+      SP.Banyu.Idle.Stay [ EVO ]_3: 418550095
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

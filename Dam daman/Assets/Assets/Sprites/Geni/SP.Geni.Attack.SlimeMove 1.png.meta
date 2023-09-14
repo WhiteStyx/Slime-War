@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 31b671a7a422ca34397f7ede8ec327ff
+guid: cc2d45177d9b1c24990bd2ca14dd5f18
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -134,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -146,19 +155,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_0
+      name: SP.Geni.Attack.SlimeMove 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 220363509b6f8ec41a33c9ad6755b8d1
-      internalID: -945858760
+      spriteID: 044c1e531e1490d439feb94952a2d86a
+      internalID: -2004758013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_1
+      name: SP.Geni.Attack.SlimeMove 1_1
       rect:
         serializedVersion: 2
-        x: 558
+        x: 1041
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3a1f5c762d544b4cbf44058087db2bf
-      internalID: -677461559
+      spriteID: a53be0a3e135cff4d9bef57240f491a4
+      internalID: -647664119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_2
+      name: SP.Geni.Attack.SlimeMove 1_2
       rect:
         serializedVersion: 2
-        x: 1116
+        x: 2082
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5233a531c41603d49846c4f27fac9b5d
-      internalID: -735732809
+      spriteID: 52e778bc1f3cf85439e1fade96223cbe
+      internalID: 210509070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_3
+      name: SP.Geni.Attack.SlimeMove 1_3
       rect:
         serializedVersion: 2
-        x: 1674
+        x: 3123
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f630c57b52114a243b4ebdc588505e57
-      internalID: 2045503185
+      spriteID: f5e42e49c392af247bd9de3947511891
+      internalID: 16750576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_4
+      name: SP.Geni.Attack.SlimeMove 1_4
       rect:
         serializedVersion: 2
-        x: 2232
+        x: 4164
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4adc4ab012eef064ea549953f6ebd249
-      internalID: -1848360260
+      spriteID: 92268bf4b00233b439d5437b8cfae053
+      internalID: 1993838041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_5
+      name: SP.Geni.Attack.SlimeMove 1_5
       rect:
         serializedVersion: 2
-        x: 2790
+        x: 5205
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5a1eab06f909a64ea1a234b2592f6a9
-      internalID: 2058759968
+      spriteID: eae91c2bd6036ba47b28140c2f26f00d
+      internalID: -598789286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_6
+      name: SP.Geni.Attack.SlimeMove 1_6
       rect:
         serializedVersion: 2
-        x: 3348
+        x: 6246
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 093a0508f7b9f244c823f7daee253056
-      internalID: 151105997
+      spriteID: f0e17091d92bd12408ae5d710971c066
+      internalID: -1851242594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_7
+      name: SP.Geni.Attack.SlimeMove 1_7
       rect:
         serializedVersion: 2
-        x: 3906
+        x: 7287
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f4f1fba17d98a4ebb94ab2c25d25bb
-      internalID: -1981255235
+      spriteID: 4212843d57fa4914c8c35f194f3600fb
+      internalID: 1338635481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Clicked_8
+      name: SP.Geni.Attack.SlimeMove 1_8
       rect:
         serializedVersion: 2
-        x: 4464
+        x: 8328
         y: 0
-        width: 558
-        height: 1000
+        width: 1041.6666
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,8 +344,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767cbcff051c8ff42910bab8acc52da6
-      internalID: 1627158163
+      spriteID: 3cb912d4d99390c4e81a0c32c2563932
+      internalID: -584856032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Geni.Attack.SlimeMove 1_9
+      rect:
+        serializedVersion: 2
+        x: 9380
+        y: 0
+        width: 1042
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c909c9282802b7648819c694caf3aa08
+      internalID: 1093649194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Geni.Attack.SlimeMove 1_10
+      rect:
+        serializedVersion: 2
+        x: 10410
+        y: 0
+        width: 1041.6666
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e395fcd9514d774489f7e02b258e179
+      internalID: 2087368211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Geni.Attack.SlimeMove 1_11
+      rect:
+        serializedVersion: 2
+        x: 11451
+        y: 0
+        width: 1041.6666
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec33f4fd24da8fe4c9501e8f3ffb32cd
+      internalID: 503637803
       vertices: []
       indices: 
       edges: []
@@ -351,18 +424,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SP.Geni.Idle.Clicked_1: -677461559
-      SP.Geni.Idle.Clicked_3: 2045503185
-      SP.Geni.Idle.Clicked_6: 151105997
-      SP.Geni.Idle.Clicked_2: -735732809
-      SP.Geni.Idle.Clicked_8: 1627158163
-      SP.Geni.Idle.Clicked_4: -1848360260
-      SP.Geni.Idle.Clicked_5: 2058759968
-      SP.Geni.Idle.Clicked_7: -1981255235
-      SP.Geni.Idle.Clicked_0: -945858760
-  spritePackingTag: 
+      SP.Geni.Attack.SlimeMove 1_0: -2004758013
+      SP.Geni.Attack.SlimeMove 1_1: -647664119
+      SP.Geni.Attack.SlimeMove 1_10: 2087368211
+      SP.Geni.Attack.SlimeMove 1_11: 503637803
+      SP.Geni.Attack.SlimeMove 1_2: 210509070
+      SP.Geni.Attack.SlimeMove 1_3: 16750576
+      SP.Geni.Attack.SlimeMove 1_4: 1993838041
+      SP.Geni.Attack.SlimeMove 1_5: -598789286
+      SP.Geni.Attack.SlimeMove 1_6: -1851242594
+      SP.Geni.Attack.SlimeMove 1_7: 1338635481
+      SP.Geni.Attack.SlimeMove 1_8: -584856032
+      SP.Geni.Attack.SlimeMove 1_9: 1093649194
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

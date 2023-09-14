@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 9411d6e65124ce84b838ddad3b5cbe93
+guid: cc94783dc5cf457419b49eb89eb7f2b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -134,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -146,19 +155,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay [ EVO ]_0
+      name: SP.Banyu.Idle.Clicked_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1275
-        height: 850
+        width: 793
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5a5dc2cde1de1b41a52a9e28e10faef
-      internalID: 887701954
+      spriteID: 0854d940fa898e34cb16f7d78511b435
+      internalID: 1558139915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay [ EVO ]_1
+      name: SP.Banyu.Idle.Clicked_1
       rect:
         serializedVersion: 2
-        x: 1284
+        x: 793
         y: 0
-        width: 1275
-        height: 850
+        width: 793
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba788219e4004542ad1dbd0b589671f
-      internalID: -885169489
+      spriteID: da045d3bc2b531c4283536abcef08e1e
+      internalID: 1144272299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay [ EVO ]_2
+      name: SP.Banyu.Idle.Clicked_2
       rect:
         serializedVersion: 2
-        x: 2568
+        x: 1586
         y: 0
-        width: 1275
-        height: 850
+        width: 793
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba977c71959b7504297143e9d690f046
-      internalID: -611800047
+      spriteID: 82bc23cfd44ff6b428fa0fc8fdfe192f
+      internalID: -1716022792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SP.Geni.Idle.Stay [ EVO ]_3
+      name: SP.Banyu.Idle.Clicked_3
       rect:
         serializedVersion: 2
-        x: 3825
+        x: 2379
         y: 0
-        width: 1275
-        height: 850
+        width: 793
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +239,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56c05be3353345f49a189f3d7415d4b6
-      internalID: -1742312896
+      spriteID: 172579d9312cd0e47a6b2879bb698d8b
+      internalID: -1711058170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Banyu.Idle.Clicked_4
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 0
+        width: 793
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d6b2f90144f9a4ba28a28ff7100557
+      internalID: 9731394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Banyu.Idle.Clicked_5
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 0
+        width: 793
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bd6b2849b551043a2f69350237932f
+      internalID: -1382051435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Banyu.Idle.Clicked_6
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 0
+        width: 793
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf41e3de6ffe5949afad3bd2a7cda4f
+      internalID: -1563630843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Banyu.Idle.Clicked_7
+      rect:
+        serializedVersion: 2
+        x: 5551
+        y: 0
+        width: 793
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455fbf5e1f1a3d241a3b08c15a929e66
+      internalID: -1886618507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP.Banyu.Idle.Clicked_8
+      rect:
+        serializedVersion: 2
+        x: 6344
+        y: 0
+        width: 793
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5e82e586bb4484784c47255cb85179
+      internalID: -726301824
       vertices: []
       indices: 
       edges: []
@@ -246,13 +361,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SP.Geni.Idle.Stay [ EVO ]_3: -1742312896
-      SP.Geni.Idle.Stay [ EVO ]_0: 887701954
-      SP.Geni.Idle.Stay [ EVO ]_1: -885169489
-      SP.Geni.Idle.Stay [ EVO ]_2: -611800047
-  spritePackingTag: 
+      SP.Banyu.Idle.Clicked_0: 1558139915
+      SP.Banyu.Idle.Clicked_1: 1144272299
+      SP.Banyu.Idle.Clicked_2: -1716022792
+      SP.Banyu.Idle.Clicked_3: -1711058170
+      SP.Banyu.Idle.Clicked_4: 9731394
+      SP.Banyu.Idle.Clicked_5: -1382051435
+      SP.Banyu.Idle.Clicked_6: -1563630843
+      SP.Banyu.Idle.Clicked_7: -1886618507
+      SP.Banyu.Idle.Clicked_8: -726301824
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
